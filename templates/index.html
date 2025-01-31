@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sayı Tahmin Oyunu</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Sayı Tahmin Oyunu</h1>
+        <p>1 ile 100 arasında bir sayı tuttum. Tahmin et!</p>
+        
+        <form id="tahminForm" method="POST">
+            <input type="number" id="tahminInput" name="tahmin" min="1" max="100" required autofocus>
+            <button type="submit">Tahmin Et</button>
+        </form>
+
+        <div id="mesaj" class="mesaj">{{ mesaj }}</div>
+
+        <br>
+        <a href="/reset" class="reset-link">Yeni Oyun Başlat</a>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
