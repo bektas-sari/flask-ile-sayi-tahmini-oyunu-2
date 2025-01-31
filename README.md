@@ -73,7 +73,7 @@ Bu proje **MIT Lisansı** altında yayınlanmıştır.
 Eğer projeye katkıda bulunmak veya geliştirmek isterseniz, aşağıdaki adımları takip edebilirsiniz:
 
 ```bash
-git clone https://github.com/bektas-sari/flask-ile-sayi-tahmini-2.git
+git clone https://github.com/bektas-sari/flask-ile-sayi-tahmini-oyunu-2.git
 cd flask-ile-sayi-tahmini-2
 code .  # VS Code ile açmak için
 ```
