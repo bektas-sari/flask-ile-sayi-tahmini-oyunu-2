@@ -100,3 +100,4 @@ Her türlü geri bildirim ve öneriler için **pull request veya issue açabilir
 ## 📧 İletişim
 Eğer proje hakkında sorularınız varsa veya geri bildirim vermek isterseniz, benimle iletişime geçebilirsiniz.
 
+
